@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 3 - Lista de Exercícios</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Calcular prestações do produto</h1>
+    </header>
+    <section>
+        <div>
+            <p>
+                Preço à vista:
+                <input type="number" id="precoVista"/>
+            </p>
+            <p>
+                <div>Quantas parcelas?</div>
+                <input type="radio" name="parcela" id="zero">À vista
+                <input type="radio" name="parcela" id="tres">3X
+                <input type="radio" name="parcela" id="quatro">4X
+                <input type="radio" name="parcela" id="cinco">5X <br>
+                </div>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res">
+            Preencha os dados acima para ver o resultado!
+        </div>
+    </section>
+    <footer>
+        <p>&copy Colégio Técnico de Campinas</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

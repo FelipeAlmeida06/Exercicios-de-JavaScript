@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 5 - Lista de Exercícios</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Código de Seleção</h1>
+    </header>
+    <section>
+        <div>
+            <p>Informe o 1°Valor:
+                <input type="number" name="txtValor1" id="txtValor1" min="0">
+                <br>
+            </p>
+            <p>Informe o 2°Valor:
+                <input type="number" name="txtValor2" id="txtValor2" min="0">
+                <br>
+            </p>
+            <p>Selecione: <br>
+                <input type="radio" name="radselec" id="cod1" checked>
+                <label for="cod1">Código 1</label>
+                <input type="radio" name="radselec" id="cod2" checked>
+                <label for="cod2">Código 2</label>
+                <input type="radio" name="radselec" id="cod3" checked>
+                <label for="cod3">Código 3</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+            <!--
+            <label>Informe seu nome:</label> <input type="text" name="txtNome" id="txtAno" min="0"> <br>
+            <label>Informe seu salário:</label> <input type="number" name="txtSalario" id="txtSalario" min="0"> <br> -->
+        </div>
+        <div id="res">
+            Preencha os dados acima para ver o resultado!
+        </div>
+    </section>
+    <footer>
+        <p>&copy Colégio Técnico de Campinas</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
